@@ -17,19 +17,27 @@ body {
     border-style: solid;
     border-color: white;
     border-width: 15px;
-    
+
 }
 
-.mainuser{
-background-color: white;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 20px;
+.fa-regular .fa-solid {
+    display: flex;
 }
 
-.m1{
+.fa-regular{
+    margin-right: 10px;
+}
+
+.mainuser {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.m1 {
     width: 60px;
     height: 60px;
     border-radius: 100%;
@@ -47,15 +55,15 @@ h5 {
 }
 
 p {
-    color:rgb(88, 76, 30);
+    color: rgb(88, 76, 30);
     margin: 0%;
     font-size: small;
 }
 
-.m2 {
-    width: 65px;
-    height: 45px;
+.fa-regular .fa-solid {
+    font-size: larger;
 }
+
 
 .button {
     background-color: white;
@@ -66,8 +74,8 @@ p {
 
 button:hover {
     cursor: pointer;
-    background-color:rgb(132, 125, 138);
-    transition:all .5s ease-in-out;
+    background-color: rgb(132, 125, 138);
+    transition: all .5s ease-in-out;
 }
 
 button {
@@ -76,8 +84,9 @@ button {
     width: 120px;
     height: 40px;
     font-size: 15px;
-    color:rgb(88, 76, 30);
+    color: rgb(88, 76, 30);
 }
+
 .users {
     border-style: solid;
     border-color: white;
@@ -85,14 +94,14 @@ button {
     height: 80px;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     padding: 10px;
 }
 
 .name {
     font-size: larger;
-    font-weight:400;
-    color:rgb(91, 68, 94);
+    font-weight: 400;
+    color: rgb(91, 68, 94);
 }
 
 .users img {
@@ -108,21 +117,21 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color:rgb(53, 46, 54);
+    color: rgb(53, 46, 54);
     background-color: beige;
 }
 
 main p {
     font-size: larger;
-    width:  600px;
+    width: 600px;
     text-align: center;
 }
 
 main img {
-width: 300px;
+    width: 300px;
 }
 
-main img:hover{
+main img:hover {
     cursor: pointer;
     transform: rotate(360deg);
     transition: 1.5s;
